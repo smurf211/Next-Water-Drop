@@ -1,0 +1,91 @@
+.box {
+  display: flex;
+  height: 300px;
+  border: 2px solid blue;
+}
+.drop_left {
+  position: fixed;
+  padding: 0;
+  background-image: linear-gradient(#09c6f9, #045de9);
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.44);
+  right: 0px;
+  left: -50%;
+  top: 12%;
+  bottom: 0px;
+  margin: 0 auto;
+  width: 160px;
+  height: 160px;
+  border-radius: 0% 100% 100% 100%;
+  -webkit-transform: rotate(45deg);
+  clear: left;
+  color: white;
+  text-align: center;
+}
+
+.drop_left_text1 {
+  right: 0px;
+  left: -50%;
+  top: 15%;
+  bottom: 0px;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  color: white;
+  position: fixed;
+  text-align: center;
+}
+.drop_left_text2 {
+  right: 0px;
+  left: -50%;
+  top: 20%;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  bottom: 0px;
+  color: white;
+  position: fixed;
+  text-align: center;
+}
+
+.drop_right {
+  position: fixed;
+  padding: 0;
+  background-image: linear-gradient(#09c6f9, #045de9);
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.44);
+  right: 0px;
+  left: 50%;
+  top: 8%;
+  bottom: 0px;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 0% 100% 100% 100%;
+  -webkit-transform: rotate(45deg);
+  clear: left;
+  color: white;
+  text-align: center;
+}
+.drop_right_text1 {
+  right: 0px;
+  left: 50%;
+  top: 15%;
+  bottom: 0px;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  color: white;
+  position: fixed;
+  text-align: center;
+}
+.drop_right_text2 {
+  right: 0px;
+  left: 50%;
+  top: 20%;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  bottom: 0px;
+  color: white;
+  position: fixed;
+  text-align: center;
+}
